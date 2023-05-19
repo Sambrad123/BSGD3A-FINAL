@@ -1,0 +1,103 @@
+	body{
+    background: url(assets/image/se.jpg)no-repeat center center;
+    background-size: auto;
+}
+
+/* Center website */	
+table {
+	width: 100%;
+	border: 0;
+}
+
+img {
+	width: 15%;
+	height: 30%;
+}
+
+tr {
+	colspan: 3;
+	background-color: #2B3467;
+	align: center;
+	height: 50px;
+}
+
+td {
+	background-color: #2B3467;
+	align: center;
+}
+
+
+a {
+	color: #FFF1DC;
+}
+
+
+.th1, .th3 {
+	width: 20%; 
+	align: center;
+}
+
+.topnav, .mydiv {
+	overflow: hidden;
+}
+
+.th2 	{
+	width: 60%; 
+	align: center;
+	
+}
+
+p {
+    color: black;
+    align: center;
+}
+
+.head {
+	color: white;
+}
+
+.header {
+    color: #B9F3FC;
+    text-align: center;
+}
+
+.headline {
+    font-size: 50px; 
+    word-break: break-all;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    margin: 8px -10px;
+}
+
+/* Add padding BETWEEN each column */
+.row,.row > .column {
+	padding: 8px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+	width:100%;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column{
+    float: left;
+    width: 15%;
+}
+
+/* Clear floats after rows */ 
+.row:after{
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content{
+    opacity: 1.5;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+
+}]
